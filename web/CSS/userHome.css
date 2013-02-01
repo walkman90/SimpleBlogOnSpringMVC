@@ -1,0 +1,82 @@
+/* 
+    Document   : userHome
+    Created on : 31 січ 2013, 18:09:21
+    Author     : Walkman
+    Description:
+        Purpose of the stylesheet follows.
+*/
+body {
+    min-height: 620px;
+    height: 100%;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #999999), color-stop(1, white));
+    background: -moz-linear-gradient(bottom, white, #999999);
+}
+a {
+    text-decoration: none;
+}
+img {
+    border: 3px solid white;
+    border-radius: 3px;
+}
+#container {
+    
+    -moz-box-shadow:    -2px -2px 5px 3px #666666;
+    -webkit-box-shadow: -2px -2px 5px 3px #666666;
+    box-shadow:         -2px -2px 5px 3px #666666;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    margin: 0 auto;
+    padding: 0 0;
+    width: 650px;
+   padding-left: 30px;
+   padding-bottom: 10px;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #3b76b3), color-stop(1, #000066));
+    background: -moz-linear-gradient(bottom, #000066, #3b76b3);
+  
+}
+#post_bt {
+    float: left;
+    width: 420px;
+}
+#post_bt input {
+    float: right;
+}
+#tweets {
+    -moz-box-shadow:    inset 0 0 10px #eeeeeee;
+   -webkit-box-shadow: inset 0 0 10px #000000;
+   box-shadow:         inset 0 0 10px #EEEEEE;
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #999999), color-stop(1, white));
+        background: -moz-linear-gradient(bottom, #666666, #cccccc);
+       -webkit-border-radius: 15px;
+       border-radius: 15px;
+       padding-top: 3px;
+       margin-top: 15px;
+       padding-right: 15px;
+       width: 610px;
+       
+       text-align: justify;
+	font-size: 13pt;
+        clear: both;
+}
+#tweets input {
+    margin-right: 20px;
+    float: right;
+}
+#username {
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;
+    width: 260px;
+    margin-bottom: 20px;
+    padding-right: 20px;
+    float: right;
+}
+#home {
+    font-size: 20px;
+    margin-top: 15px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    width: 350px;
+    float: left;
+}
